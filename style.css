@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.heroContainer {
+    /* width: 1400px; */
+    padding: 20px 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 1em;
+}
+
+.links li {
+    list-style: none;
+}
+
+.heroContainer {
+    background-color: #1F2937;
+    
+}
+
+.headerContainer {
+    margin-bottom: 200px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 200px;
+    gap: 1em;
+
+}
+
+a {
+    
+    text-decoration: none;
+}
+
+.heroImage img {
+    max-width: 100%;
+    height: auto;
+    
+    
+}
+
+.heroHeadline {
+    flex:1
+    
+}
+
+.heroHeadline h1 {
+    font-size:48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    
+}
+
+.heroHeadline p, .heroHeadline button, .links a {
+    font-size:18px;
+    color: #E5E7EB;
+    
+}
+
+.heroHeadline button {
+    background-color: #3882F6;
+    margin-top: 10px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    
+}
+.heroImage {
+    flex:1;
+    text-align: center;
+    /* height: 300px; */
+    
+}
+
+.informationContainer {
+    background-color: #F9FAF8;
+    padding: 200px;
+    text-align: center;
+}
+
+.headerInformation > h2{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 40px;
+    
+}
+
+.cardsContainer {
+    display: flex;
+    gap: 5em;;
+}
+
+.cards > img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.cards > p {
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+}
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+cite {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: auto;
+}
+
+footer {
+    padding: 200px;
+}
+
+.footerContainer {
+    background-color: #3882F6;
+    
+    color: #E5E7EB;
+    padding: 100px;
+    display: flex;
+    border-radius: 30px;
+  
+}
+.cta  {
+    background-color: #3882F6;
+    font-size: 36px;
+    border-radius: 10px;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
+    padding: 5px 20px;
+    box-shadow: none;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.callToAction > h2{
+    font-size: 36px;
+}
+
+.callToAction > p{
+    font-size: 18px;
+}
